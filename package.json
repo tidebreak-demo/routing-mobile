@@ -1,0 +1,5 @@
+{
+  "name": "crew-mobile",
+  "private": true,
+  "dependencies": { "expo": "~51.0.0", "react": "18.2.0", "react-native": "0.74.5" }
+}
