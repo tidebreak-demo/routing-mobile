@@ -6,7 +6,7 @@ export function JobListPullToRefresh({ jobId, onSelect }: Props) {
   const label = useMemo(() => `Job ${jobId}`, [jobId])
 
   return (
-    <button type="button" disabled={!jobId} onClick={() => onSelect(jobId)}>
+    <button type="button" onClick={() => onSelect(jobId)}>
       {label}
     </button>
   )
